@@ -1,3 +1,7 @@
-# Lists & Keys
-- Use keys to let React know what's changed so that it can handled it appropriately.
-- For example, if you're collecting data from a database, each item would of course have a unique id that tells React what's being deleted.
+# Flexible Lists
+- Now, all the little errors (that didn't stop the app from working well) are gone.
+- It's so great and I should remember this process when working.
+- It's so flexible. As a type, the changes are made immediately.
+- I can type and the value is reflecting the change I'm making.
+- This is so cool.
+- May need to rewatch. 
