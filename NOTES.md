@@ -1,3 +1,3 @@
-# Outputting Lists
-- A better way. Wow. I'm learning fast.
-- There were some errors in the console. Check out the next lecture or lectures on how to handle that. 
+# Lists & State
+- We removed Persons in this lecture.
+- But it still has a flaw, which we're going to correct in the next lecture. 
