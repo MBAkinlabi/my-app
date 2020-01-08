@@ -1,2 +1,3 @@
-# Handling Dynamic Content "The JavaScript Way"
-- The preferred way of rendering dynamic content in JavaScript. Use this way more.
+# Outputting Lists
+- A better way. Wow. I'm learning fast.
+- There were some errors in the console. Check out the next lecture or lectures on how to handle that. 
