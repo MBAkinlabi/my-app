@@ -1,3 +1,3 @@
-# Lists & State
-- We removed Persons in this lecture.
-- But it still has a flaw, which we're going to correct in the next lecture. 
+# Updating State Immutably
+- A better way of updating state.
+- In the last lecture I made a mistake of duplicating the person import. You must have seen that. 
