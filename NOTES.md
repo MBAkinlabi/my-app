@@ -1,3 +1,2 @@
-# Setting Styles Dynamically
-- Now you can set CSS (styles) or change it automatically.
-- It allows you to play with CSS when a condition is met.
+# Setting Class Names Dynamically
+- How to dynamically add CSS classes to your app. You do this automatically when something happens. It's so great to be able to do this dynamically.
