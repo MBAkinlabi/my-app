@@ -1,7 +1,5 @@
-# Introducing Styled Components
-- https://styled-components.com/
-```shell
-npm install --save styled-components
-```
-- Instead of using Radium and it's StyleRoot wrapping and all that, this is another alternative and it looks better and neater too.
-- So visit the site to learn some things you may not understand. And follow it on here. It looks cool. 
+# More on Styled Components
+- Now we're back to using normal CSS
+- We're writing normal CSS now. 
+- Note that this CSS code goes to the header. So, it's not inline. You don't have to worry about that. Just follow the instructor.
+- Watch the ampersand `&:hover` like the normal way we write CSS.
