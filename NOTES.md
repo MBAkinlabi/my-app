@@ -1,4 +1,7 @@
-# Using Radium for Media Queries
-- If you're using just pseudo selectors, then wrapping it in Radium is enough.
-- But if you want to do more like use advanced CSS selectors like media queries and key-frames then you'll have to wrap your application with something provided by Radium called StyleRoot. You'll have to import that too to use it.
-- If you don't wrap your application with it, your application will generate some errors in the console and you want to avoid that.
+# Introducing Styled Components
+- https://styled-components.com/
+```shell
+npm install --save styled-components
+```
+- Instead of using Radium and it's StyleRoot wrapping and all that, this is another alternative and it looks better and neater too.
+- So visit the site to learn some things you may not understand. And follow it on here. It looks cool. 
