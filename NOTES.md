@@ -7,3 +7,72 @@
 npm run eject
 ```
 - Because I'm using Git, I quickly commit my files because we won't move forward if I don't.
+- Then I re-run this again:
+```shell
+npm run eject
+```
+- Now I can see the config and scripts folders. 
+- Go to `config` folder and find the `webpack.config.dev.js` file.
+- Find this
+```js
+ test: /\.css$/,
+            use: [
+              require.resolve('style-loader'),
+              {
+                loader: require.resolve('css-loader'),
+                options: {
+                  importLoaders: 1,
+                },
+              },
+              {
+```
+- Then make the changes as specified here
+```js
+loader: require.resolve('css-loader'),
+                options: {
+                  importLoaders: 1,
+                  modules: true,
+                  localIdentName: '[name]__[local]__[hash:base64:5]'
+
+                },
+```
+- Then go to this file `webpack.config.prod.js`
+- Go here
+```js
+test: /\.css$/,
+            loader: ExtractTextPlugin.extract(
+              Object.assign(
+                {
+                  fallback: {
+                    loader: require.resolve('style-loader'),
+                    options: {
+                      hmr: false,
+                    },
+                  },
+                  use: [
+                    {
+                      loader: require.resolve('css-loader'),
+                      options: {
+                        importLoaders: 1,
+                        minimize: true,
+                        sourceMap: shouldUseSourceMap,
+                      },
+                    },
+                    {
+```
+- Then make this changes too (add these two lines):
+```js
+options: {
+                        importLoaders: 1,
+                        minimize: true,
+                        sourceMap: shouldUseSourceMap,
+                        modules: true,
+                        localIdentName: '[name]__[local]__[hash:base64:5]'
+                      },
+                    },
+```
+- After doing that run
+```shell
+npm run start
+```
+- You may have to rewatch this if you have to. It'll help you remember faster and more. 
