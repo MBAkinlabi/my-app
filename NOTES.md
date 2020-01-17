@@ -1,7 +1,3 @@
-# Useful Resources & Links
-Using CSS Modules in create-react-app Projects: https://medium.com/nulogy/how-to-use-css-modules-with-create-react-app-9e44bec2b5c2
-More information about CSS Modules: https://github.com/css-modules/css-modules
-Resources for this lecture
-styling--01-radium.zip
-styling--02-styled-components.zip
-styling--03-finished.zip
+# Understanding Error Messages
+- I didn't code
+- We learned how to read error messages in the console. 
