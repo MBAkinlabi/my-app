@@ -1,5 +1,6 @@
-# Working with the React Developer Tools
-- Download the React Developer Tools Chrome Extension here: https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
-- Learn more about it here: https://reactjs.org/blog/2015/09/02/new-react-developer-tools.html and https://github.com/facebook/react-devtools
-- Learn how to use "Components" and "Profiler" and more. This tool make React even more interesting and you can inspect and change and see the feel of things inside React. Wow.
-- I may need to re-watch this video multiple times to understand what's going on. 
+# Using Error Boundaries (React 16+)
+- Learn about the concept of error boundaries.
+- It's a good concept to know just for handling errors when something happens inside your component.
+- You can replace the ugly error message with your own nice formated error message. 
+- It's like taking care of error in your component.
+- It's nice to know it but wouldn't recommend that you use it as much. Or, use it at all. 
