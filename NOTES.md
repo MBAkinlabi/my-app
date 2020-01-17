@@ -1,5 +1,3 @@
-# Useful Resources & Links
-Error Boundaries: https://reactjs.org/docs/error-boundaries.html
-Chrome Devtool Debugging: https://developers.google.com/web/tools/chrome-devtools/javascript/
-
-Resources for this lecture
+# Note: I've removed code written about Error Boundary
+- I removed the code because author did too. 
+- Not part of the lecture. 
