@@ -1,4 +1,5 @@
-# Finding Logical Errors by using Dev Tools & Sourcemaps
-- Use Developer Tools => Source tabs to access your original code and find logical errors.
-- Use this to find errors like undefined variables in your code.
-- Using the Sources tab in Chrome and through the files, you'll find your original code.
+# Working with the React Developer Tools
+- Download the React Developer Tools Chrome Extension here: https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
+- Learn more about it here: https://reactjs.org/blog/2015/09/02/new-react-developer-tools.html and https://github.com/facebook/react-devtools
+- Learn how to use "Components" and "Profiler" and more. This tool make React even more interesting and you can inspect and change and see the feel of things inside React. Wow.
+- I may need to re-watch this video multiple times to understand what's going on. 
