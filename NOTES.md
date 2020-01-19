@@ -1,4 +1,3 @@
-# Splitting an App Into Components
-- A better way of even structuring and splitting your files.
-- Creating new components and more.
-- Far the best way to do things. 
+# Comparing Stateless and Stateful Components
+- Use more functional or stateless componets and few stateful components or containers.
+- It helps keep your code more maintanable.
