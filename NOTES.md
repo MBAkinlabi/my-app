@@ -1,3 +1,2 @@
-# Cleanup Work with useEffect() - Ex
-- The timer was removed like in the case of unmount. What happened is that you won't see the code because the instructor removed it. 
-- It didn't show in the next lectures because the instructor went back to quickly add it. 
+# Using shouldComponentUpdate for Optimization
+- You can improve optimization by telling it if it doesn't change, there's no need to render it the virtual DOM. It improves performance. 
