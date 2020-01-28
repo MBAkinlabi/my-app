@@ -1,3 +1,4 @@
-# When should you optimize?
-- shouldcomponentupdate is for class and react.memo is for function components.
-- If the parent update and it affects you, then you need to use this performance optimaztion. But if your parent update and it doesn't affect you, if both of you are separate, then you need this performance optimization trick using shouldcomponentupdate and react.memo. Keep this in mind.
+# PureComponents instead of shouldComponentUpdate
+- If you only want to confirm all props that matter to a component, there's an easier way of writing that. 
+- Checking if the props changed and then you can do what you want to do
+- If you're checking all props, then you shouldn't use shouldComponentUpdate. Instead, extend PureComponent. It does check everything you need.
