@@ -1,3 +1,3 @@
-# Optimizing Functional Components with React.memo()
-- Use  React.memo() to remember during re-rendering. If the input or anything don't change, React won't re-render it. It only re-renders when the props change.
-- We changed the persons to personsLength so that it doesn't update all the time. We're doing this for optimization. 
+# When should you optimize?
+- shouldcomponentupdate is for class and react.memo is for function components.
+- If the parent update and it affects you, then you need to use this performance optimaztion. But if your parent update and it doesn't affect you, if both of you are separate, then you need this performance optimization trick using shouldcomponentupdate and react.memo. Keep this in mind.
