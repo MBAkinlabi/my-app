@@ -1,4 +1,9 @@
-# Higher Order Components (HOC) - Introduction
-- It's a convention to name a higher order component with a `With` at the beginning but you can still do whatever you like.
-- The reason for using higher order components is that it helps you do much more, you can handle some logic in the higher order component like http requests and others. And even do much more than that.
-- So it's better than using a `div`
+# Another Form of HOCs
+- Another way of creating higher order components. 
+- The first argument is the WrappedComponent, the children and the second are the function that you want the component to do or use. You can add as many action functions as third, fourth and so on. 
+- We changed `WithClass` to `withClass` the lowercase means it's not a component anymore. It's now a function.
+- You now use `withClass` in the export default, note that the second argument in that line is the function. And that's how you do it. Creating an higher order component without using `div`
+- Now you know the two ways of adding higher order components. Both are popular.
+- The first one is normally used when the HOC does more. Maybe it runs some logic like checking for erros, http requests.
+- This second one is a sign that the HOC doesn't do much. It's just a semantic thing.
+- Not really important. Choose the one you're more comfortable with. 
