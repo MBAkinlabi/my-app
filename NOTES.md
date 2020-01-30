@@ -1,8 +1,6 @@
-# Using PropTypes
-- Telling people what your props is about. For example, people need to know that props.age is a number and they shouldn't write a string. It helps to tell people what a prop is about.
-- You'll need this extra package: Install it. The package was built by the NPM community itself.
-```shell
-npm install --save prop-types
-```
-- You can use this package both on class and functional components
+# Using Refs
+- You can use `refs` on any property in the component.
+- It's used for selecting any HTML element, or anything really. 
+- How to use `refs` to focus on something. And using it to select the last element even if there are 10 elements of the same type. the last one is selected.
+- Using `React.createRef()` to create refs inside the constructor.
 - 
