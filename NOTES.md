@@ -1,7 +1,8 @@
-# Setting State Correctly
-- Keep in mind that you can setState but it's not guaranteed to execute and finish immediately.
-- Memorize this part because it's important for counter.
-- If you have a state that calls something like `this` of the name of the old state add or minus or anything like that, it could be affect somewhere else since you have multiple `setState` in your app.
-- The best way to do this is to use the `prevState.` the name, then you can be sure that the previous state is still available. The app works normally but it's important that you keep this in mind.
-- This is the best way of updating the state when you're depending on old state.
-- It's the best practice. 
+# Using PropTypes
+- Telling people what your props is about. For example, people need to know that props.age is a number and they shouldn't write a string. It helps to tell people what a prop is about.
+- You'll need this extra package: Install it. The package was built by the NPM community itself.
+```shell
+npm install --save prop-types
+```
+- You can use this package both on class and functional components
+- 
