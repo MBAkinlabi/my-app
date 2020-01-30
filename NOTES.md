@@ -1,30 +1,17 @@
-# Useful Resources & Links
+# MUST READ: Legacy Lectures
 
-Useful Resources & Links
+DON'T SKIP THIS!
 
-Useful Resources:
+---
 
-    More on useEffect(): https://reactjs.org/docs/hooks-effect.html
+With React 16.8, a new feature called "React Hooks" was introduced. This course already covers this feature and this module, up to this point, is 100% up-to-date with that feature (e.g. you learned about useEffect()).
 
-    State & Lifecycle: https://reactjs.org/docs/state-and-lifecycle.html
+The upcoming lectures marked as "[LEGACY]" are only there to allow existing students who started this module before the update (on February 6th) to continue smoothly.
 
-    PropTypes: https://reactjs.org/docs/typechecking-with-proptypes.html
+You can skip all remaining lectures in this module (i.e. the lectures with "[LEGACY]") if you watched all the other lectures prior to this one.
 
-    Higher Order Components: https://reactjs.org/docs/higher-order-components.html
 
-    Refs: https://reactjs.org/docs/refs-and-the-dom.html
+## NOTE TO MYSELF
+**I'm skipping all lectures with legacy and going directly to the next module to begin it.**
 
-Resources for this lecture
-
-    cmp-deep-dive-01-creation-lifecycle.zip
-    cmp-deep-dive-02-updating-lifecycle-props.zip
-    cmp-deep-dive-03-updating-lifecycle-state.zip
-    cmp-deep-dive-04-finished-useeffect.zip
-    cmp-deep-dive-05-shouldcomponentupdate-memo.zip
-    cmp-deep-dive-06-aux.zip
-    cmp-deep-dive-07-withclass.zip
-    cmp-deep-dive-08-finished-hocs.zip
-    cmp-deep-dive-09-updating-state.zip
-    cmp-deep-dive-10-proptypes.zip
-    cmp-deep-dive-11-refs.zip
-    cmp-deep-dive-12-finished.zip
+**In the next module, I'll start using numbers at the end of each commit to know where I am.**
