@@ -1,3 +1,2 @@
-# Refs with React Hooks
-- How to use refs in functional components
-- You'll be using `useRef` and it works cool.
+# Understanding Prop Chain Problems
+- this is all about passing down props from parent to child. For example a passed down to d. B and C are exposed to the props. They have the props written on them even though they don't need or use it. This is a problem we aim to solve in the next lecture.
