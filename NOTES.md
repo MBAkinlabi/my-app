@@ -1,2 +1,3 @@
-# Understanding Prop Chain Problems
-- this is all about passing down props from parent to child. For example a passed down to d. B and C are exposed to the props. They have the props written on them even though they don't need or use it. This is a problem we aim to solve in the next lecture.
+# Using the Context API
+- This is a great alternative to the one we did in the last lecture. 
+- If you want to pass data from A to D, this is what you should use. It's so cool instead of passing through every child component when they don't need it.
